@@ -4,14 +4,7 @@ using UnityEngine;
 
 public class Block : MonoBehaviour
 {
-    /// <summary>
-    /// Section of the block that is the first to be deleted
-    /// </summary>
-    public GameObject head;
-    /// <summary>
-    /// End of the block, last deleted
-    /// </summary>
-    public GameObject tail;
+
 
     /// <summary>
     /// Speed at which the roads will travel towards the player, simulating movement
@@ -23,12 +16,30 @@ public class Block : MonoBehaviour
     {
         //Move the Block Towards the player
         //Moves it backwards, held back by time and altered by gameSpeed
-        transform.Translate(-Vector3.forward * Time.deltaTime * gameSpeed);
-
-        //if the tail has been destroyed, destroy the whole block after half a second
-        if(tail == null)
+        if(GameController.Instance.state == GameController.gameState.Game)
         {
-            Destroy(this, 0.5f);
+            transform.Translate(-Vector3.forward * Time.deltaTime * gameSpeed);
+        }
+
+        
+    }
+
+    private void OnTriggerExit(Collider other)
+    {
+        //once the player leaves the zone of the block, destroy the block
+        if(other.transform.CompareTag("Player"))
+        {
+            GameController.Instance.CreateBlock();
+            Destroy(gameObject);
+        }
+    }
+    private void OnCollisionExit(Collision collision)
+    {
+        //once the player leaves the zone of the block, destroy the block
+        if (collision.transform.CompareTag("Player"))
+        {
+            GameController.Instance.CreateBlock();
+            Destroy(gameObject);
         }
     }
 }
