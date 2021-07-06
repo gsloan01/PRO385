@@ -6,6 +6,14 @@ public class GameController : MonoBehaviour
 {
     public static GameController Instance { get { return instance; } }
     static GameController instance;
+
+    //how fast the roads move
+    public float gameSpeed = 5;
+    //how long between spawns
+    public float timeBetweenSpawn = 1;
+    //score
+    public float points = 0;
+
     /// <summary>
     /// 0 - Main
     /// 1 - Game
@@ -13,17 +21,14 @@ public class GameController : MonoBehaviour
     /// 3 - Loss
     /// </summary>
     public List<AudioClip> music = new List<AudioClip>();
-    public Vector3 nextBlockSpawn;
-
+    public Transform nextBlockSpawn;
     public GameObject Player;
 
-    //determines how many obstacle blocks there are before there is a clear one
-    public int blocksBetweenBreaks = 5;
-    int safetyCountdown = 0;
 
-    public float points = 0;
     float pointMultiplier = 1;
     float currentRunTime = 0;
+
+    float timer = 0;
 
 
     public enum gameState
@@ -33,9 +38,8 @@ public class GameController : MonoBehaviour
 
     public gameState state = gameState.Menu;
     
-    //these lists hold all of the possible blocks that could spawn in the game
-    public List<GameObject> obstacleBlocks = new List<GameObject>();
-    public List<GameObject> safeBlocks = new List<GameObject>();
+
+    public List<GameObject> roadSections = new List<GameObject>();
 
     private void Awake()
     {
@@ -56,20 +60,29 @@ public class GameController : MonoBehaviour
         CreateBlock();
         CreateBlock();
     }
+
+
+
     void Update()
     {
         switch (state)
         {
             case gameState.Menu:
                 currentRunTime = 0;
-                
+
 
                 break;
             case gameState.Game:
                 currentRunTime += Time.deltaTime;
 
+                timer += Time.deltaTime;
+                if (timer >= timeBetweenSpawn)
+                {
+                    CreateBlock();
+                    timer = 0;
+                }
                 //If the game is out of the beginning
-                if(currentRunTime >= 5)
+                if (currentRunTime >= 5)
                 {
                     //Add points as time goes on
                     points += Time.deltaTime * pointMultiplier;
@@ -89,20 +102,13 @@ public class GameController : MonoBehaviour
 
     public void CreateBlock()
     {
-        //if there have been 5 obstacle blocks in a row
-        if(safetyCountdown == 0)
-        {
-            //spawn a new block that is a random safe one
-            GameObject temp = Instantiate(safeBlocks[Random.Range(0, safeBlocks.Count)], nextBlockSpawn, Quaternion.identity);
-            nextBlockSpawn = temp.transform.GetChild(0).position;
-            safetyCountdown = blocksBetweenBreaks;
-        }
-        else
-        {
-            GameObject temp = Instantiate(safeBlocks[Random.Range(0, obstacleBlocks.Count)], nextBlockSpawn, Quaternion.identity);
-            nextBlockSpawn = temp.transform.GetChild(0).position;
-            safetyCountdown--;
-        }
+        //Debug.Log("Creating block");
+        GameObject temp = Instantiate(roadSections[Random.Range(0, roadSections.Count)], nextBlockSpawn.position, Quaternion.identity);
+        //Debug.Log("Created " +temp.name);
+        nextBlockSpawn = temp.transform.GetChild(0).transform;
+        //Debug.Log("Next spawn " + nextBlockSpawn.ToString());
+
+
         
     }
 
