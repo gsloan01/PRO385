@@ -97,7 +97,12 @@ public class GameController : MonoBehaviour
                 break;
             case gameState.Loss:
                 //if current run time is the longest, set it as new record
+                if(currentRunTime > PlayerPrefs.GetFloat("HighScore", 0))
+                {
+                    PlayerPrefs.SetFloat("HighScore", currentRunTime);
+                }
                 //show loss menu and offer retry
+                menuController.OnLose();
                 break;
             default:
                 break;
@@ -146,8 +151,10 @@ public class GameController : MonoBehaviour
     }
     public void OnPause()
     {
-        if(paused)
+        //if not paused, pause, else start again
+        if(!paused)
         {
+            paused = true;
             GetComponent<AudioSource>().clip = music[2];
             state = gameState.Pause;
             Time.timeScale = 0;

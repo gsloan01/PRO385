@@ -5,13 +5,23 @@ using UnityEngine;
 public class Player : MonoBehaviour
 {
     //LeftRightSpeed
-    public Transform leftBound;
-    public Transform RightBound;
     Rigidbody rb;
-    
-    //Set animation triggers
+    public float jumpTime = 0.65f;
+    public bool jumping = false;
+    float jumpTimer = 0;
 
-    //Controls
+    private void OnTriggerEnter(Collider other)
+    {
+        if(other.tag == "NormalHitbox")
+        {
+            GameController.Instance.menuController.OnLose();
+        }
+        if (other.tag == "JumpHitbox" && !jumping)
+        {
+            GameController.Instance.menuController.OnLose();
+        }
+    }
+
 
     // Start is called before the first frame update
     void Start()
@@ -22,6 +32,39 @@ public class Player : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //Mathf.Clamp(rb.position.x, leftBound.position.x, RightBound.position.x);
+        //KEYBOARDCONTROLS
+        if(jumping)
+        {
+            jumpTimer += Time.deltaTime;
+            if (jumpTimer >= jumpTime)
+            {
+                jumping = false;
+                jumpTimer = 0;
+                transform.position = new Vector3(transform.position.x, 0, transform.position.z);
+            }
+        }
+
+        if(Input.GetKey(KeyCode.LeftArrow))
+        {
+            if(rb.position.x >= -6.5f)
+            {
+                transform.Translate(Vector3.left * Time.deltaTime * 5);
+
+            }
+            
+        }
+        else if(Input.GetKey(KeyCode.RightArrow))
+        {
+            if (rb.position.x <= 1f)
+            {
+                transform.Translate(Vector3.right * Time.deltaTime * 5);
+            }
+        }
+        if(Input.GetKeyDown(KeyCode.UpArrow))
+        {
+            GetComponent<Animator>().SetTrigger("Jump");
+            jumping = true;
+            transform.position = new Vector3(transform.position.x, 1.5f, transform.position.z);
+        }
     }
 }

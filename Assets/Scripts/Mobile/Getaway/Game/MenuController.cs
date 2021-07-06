@@ -1,14 +1,18 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class MenuController : MonoBehaviour
 {
     public GameObject menuPanel;
     public GameObject gameUI;
     public GameObject pauseMenu;
+    public GameObject inGameUI;
+    public GameObject lossScreen;
 
     public GameObject cam;
+    public Transform camOriginal;
     
 
     public void OnGoToMenu()
@@ -16,6 +20,8 @@ public class MenuController : MonoBehaviour
         menuPanel.SetActive(true);
         gameUI.SetActive(false);
         pauseMenu.SetActive(false);
+        cam.transform.position = camOriginal.position;
+        cam.transform.forward = camOriginal.forward;
         GameController.Instance.OnMenu();
     }
     public void OnLeaveMenu()
@@ -29,8 +35,22 @@ public class MenuController : MonoBehaviour
     public void OnPause()
     {
         menuPanel.SetActive(false);
-        gameUI.SetActive(false);
         pauseMenu.SetActive(true);
+        GameController.Instance.OnPause();
+    }
+    public void OnLose()
+    {
+        gameUI.SetActive(true);
+        lossScreen.SetActive(true);
+        inGameUI.SetActive(false);
+        GameController.Instance.OnLoss();
+
+    }
+    public void OnUnpause()
+    {
+        inGameUI.SetActive(true);
+        gameUI.SetActive(true);
+        pauseMenu.SetActive(false);
         GameController.Instance.OnPause();
     }
 
@@ -40,8 +60,10 @@ public class MenuController : MonoBehaviour
     }
 
     float timer = 0;
-    float timeToWait = 12;
+    float timeToWait = 11.5f;
     bool startingGame = false;
+
+
     private void Update()
     {
         if(startingGame)
@@ -56,10 +78,7 @@ public class MenuController : MonoBehaviour
             }
         }
 
-        if(Input.GetKeyDown(KeyCode.Escape))
-        {
-            OnPause();
-        }
+
 
     }
 }
