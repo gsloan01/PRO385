@@ -10,6 +10,10 @@ public class Player : MonoBehaviour
     public bool jumping = false;
     float jumpTimer = 0;
 
+    public float slideTime = 0.65f;
+    public bool sliding = false;
+    float slideTimer = 0;
+
     private void OnTriggerEnter(Collider other)
     {
         if(other.tag == "NormalHitbox")
@@ -17,6 +21,10 @@ public class Player : MonoBehaviour
             GameController.Instance.menuController.OnLose();
         }
         if (other.tag == "JumpHitbox" && !jumping)
+        {
+            GameController.Instance.menuController.OnLose();
+        }
+        if (other.tag == "SlideHitbox" && !sliding)
         {
             GameController.Instance.menuController.OnLose();
         }
@@ -43,8 +51,17 @@ public class Player : MonoBehaviour
                 transform.position = new Vector3(transform.position.x, 0, transform.position.z);
             }
         }
+        if (sliding)
+        {
+            slideTimer += Time.deltaTime;
+            if (slideTimer >= slideTime)
+            {
+                sliding = false;
+                slideTimer = 0;
+            }
+        }
 
-        if(Input.GetKey(KeyCode.LeftArrow))
+        if (Input.GetKey(KeyCode.LeftArrow))
         {
             if(rb.position.x >= -6.5f)
             {
@@ -60,11 +77,16 @@ public class Player : MonoBehaviour
                 transform.Translate(Vector3.right * Time.deltaTime * 5);
             }
         }
-        if(Input.GetKeyDown(KeyCode.UpArrow))
+        if(Input.GetKeyDown(KeyCode.UpArrow) && !sliding)
         {
             GetComponent<Animator>().SetTrigger("Jump");
             jumping = true;
             transform.position = new Vector3(transform.position.x, 1.5f, transform.position.z);
+        }
+        if (Input.GetKeyDown(KeyCode.DownArrow) && !jumping)
+        {
+            GetComponent<Animator>().SetTrigger("Slide");
+            sliding = true;
         }
     }
 }

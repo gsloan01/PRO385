@@ -401,6 +401,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sideway 4 prefab (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 1590873232276242, guid: f24cfa7ea7c5c764dad9dddadf04cde2, type: 3}
+      propertyPath: m_TagString
+      value: DontDelete
+      objectReference: {fileID: 0}
     - target: {fileID: 4135480120554540, guid: f24cfa7ea7c5c764dad9dddadf04cde2, type: 3}
       propertyPath: m_RootOrder
       value: 18
@@ -487,6 +491,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: parking meter prefab (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1321317634356290, guid: dbdf3da5684f16d4fb4464f7337c942e, type: 3}
+      propertyPath: m_TagString
+      value: DontDelete
+      objectReference: {fileID: 0}
     - target: {fileID: 4923929284851280, guid: dbdf3da5684f16d4fb4464f7337c942e, type: 3}
       propertyPath: m_RootOrder
       value: 16
@@ -548,6 +556,10 @@ PrefabInstance:
     - target: {fileID: 1590873232276242, guid: f24cfa7ea7c5c764dad9dddadf04cde2, type: 3}
       propertyPath: m_Name
       value: Sideway 4 prefab (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1590873232276242, guid: f24cfa7ea7c5c764dad9dddadf04cde2, type: 3}
+      propertyPath: m_TagString
+      value: DontDelete
       objectReference: {fileID: 0}
     - target: {fileID: 4135480120554540, guid: f24cfa7ea7c5c764dad9dddadf04cde2, type: 3}
       propertyPath: m_RootOrder
@@ -611,6 +623,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sideway 4 prefab (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1590873232276242, guid: f24cfa7ea7c5c764dad9dddadf04cde2, type: 3}
+      propertyPath: m_TagString
+      value: DontDelete
+      objectReference: {fileID: 0}
     - target: {fileID: 4135480120554540, guid: f24cfa7ea7c5c764dad9dddadf04cde2, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -672,6 +688,10 @@ PrefabInstance:
     - target: {fileID: 1590873232276242, guid: f24cfa7ea7c5c764dad9dddadf04cde2, type: 3}
       propertyPath: m_Name
       value: Sideway 4 prefab (20)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1590873232276242, guid: f24cfa7ea7c5c764dad9dddadf04cde2, type: 3}
+      propertyPath: m_TagString
+      value: DontDelete
       objectReference: {fileID: 0}
     - target: {fileID: 4135480120554540, guid: f24cfa7ea7c5c764dad9dddadf04cde2, type: 3}
       propertyPath: m_RootOrder
@@ -735,6 +755,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sideway 4 prefab (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 1590873232276242, guid: f24cfa7ea7c5c764dad9dddadf04cde2, type: 3}
+      propertyPath: m_TagString
+      value: DontDelete
+      objectReference: {fileID: 0}
     - target: {fileID: 4135480120554540, guid: f24cfa7ea7c5c764dad9dddadf04cde2, type: 3}
       propertyPath: m_RootOrder
       value: 11
@@ -796,6 +820,10 @@ PrefabInstance:
     - target: {fileID: 1180388739977234, guid: 4752f864e3118e64482c22f7a8d21b01, type: 3}
       propertyPath: m_Name
       value: Grass_stone_2_prefab (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1180388739977234, guid: 4752f864e3118e64482c22f7a8d21b01, type: 3}
+      propertyPath: m_TagString
+      value: DontDelete
       objectReference: {fileID: 0}
     - target: {fileID: 4333627001259202, guid: 4752f864e3118e64482c22f7a8d21b01, type: 3}
       propertyPath: m_RootOrder
@@ -859,6 +887,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Fence_B_1 prefab (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 1231887845129900, guid: a0c9730978f0d194c9b79ac6b6aa2c60, type: 3}
+      propertyPath: m_TagString
+      value: DontDelete
+      objectReference: {fileID: 0}
     - target: {fileID: 4827410518518274, guid: a0c9730978f0d194c9b79ac6b6aa2c60, type: 3}
       propertyPath: m_RootOrder
       value: 14
@@ -920,6 +952,10 @@ PrefabInstance:
     - target: {fileID: 1590873232276242, guid: f24cfa7ea7c5c764dad9dddadf04cde2, type: 3}
       propertyPath: m_Name
       value: Sideway 4 prefab (23)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1590873232276242, guid: f24cfa7ea7c5c764dad9dddadf04cde2, type: 3}
+      propertyPath: m_TagString
+      value: DontDelete
       objectReference: {fileID: 0}
     - target: {fileID: 4135480120554540, guid: f24cfa7ea7c5c764dad9dddadf04cde2, type: 3}
       propertyPath: m_RootOrder
@@ -1026,6 +1062,10 @@ PrefabInstance:
     - target: {fileID: 6753112034338873663, guid: 7ee91ef82f11d3247975b53c3e60dbb1, type: 3}
       propertyPath: m_Name
       value: Street_Plain (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6753112034338873663, guid: 7ee91ef82f11d3247975b53c3e60dbb1, type: 3}
+      propertyPath: m_TagString
+      value: DontDelete
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7ee91ef82f11d3247975b53c3e60dbb1, type: 3}
@@ -1319,6 +1359,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   jumpTime: 0.5
   jumping: 0
+  slideTime: 0.65
+  sliding: 0
 --- !u!54 &175426396
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1364,6 +1406,10 @@ PrefabInstance:
     - target: {fileID: 1590873232276242, guid: f24cfa7ea7c5c764dad9dddadf04cde2, type: 3}
       propertyPath: m_Name
       value: Sideway 4 prefab (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1590873232276242, guid: f24cfa7ea7c5c764dad9dddadf04cde2, type: 3}
+      propertyPath: m_TagString
+      value: DontDelete
       objectReference: {fileID: 0}
     - target: {fileID: 4135480120554540, guid: f24cfa7ea7c5c764dad9dddadf04cde2, type: 3}
       propertyPath: m_RootOrder
@@ -1471,6 +1517,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Street_Plain (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 6753112034338873663, guid: 7ee91ef82f11d3247975b53c3e60dbb1, type: 3}
+      propertyPath: m_TagString
+      value: DontDelete
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7ee91ef82f11d3247975b53c3e60dbb1, type: 3}
 --- !u!4 &194158004 stripped
@@ -1493,6 +1543,10 @@ PrefabInstance:
     - target: {fileID: 1180388739977234, guid: 4752f864e3118e64482c22f7a8d21b01, type: 3}
       propertyPath: m_Name
       value: Grass_stone_2_prefab (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1180388739977234, guid: 4752f864e3118e64482c22f7a8d21b01, type: 3}
+      propertyPath: m_TagString
+      value: DontDelete
       objectReference: {fileID: 0}
     - target: {fileID: 4333627001259202, guid: 4752f864e3118e64482c22f7a8d21b01, type: 3}
       propertyPath: m_RootOrder
@@ -1555,6 +1609,10 @@ PrefabInstance:
     - target: {fileID: 1646981259178978, guid: f463242ba59e68243b7a693d4f0cfc18, type: 3}
       propertyPath: m_Name
       value: Police_car (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1646981259178978, guid: f463242ba59e68243b7a693d4f0cfc18, type: 3}
+      propertyPath: m_TagString
+      value: DontDelete
       objectReference: {fileID: 0}
     - target: {fileID: 4870167790249810, guid: f463242ba59e68243b7a693d4f0cfc18, type: 3}
       propertyPath: m_RootOrder
@@ -1707,6 +1765,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Fence_B_2 prefab
       objectReference: {fileID: 0}
+    - target: {fileID: 1655290938631246, guid: c469c07c5b45c454db32065c2f59b36b, type: 3}
+      propertyPath: m_TagString
+      value: DontDelete
+      objectReference: {fileID: 0}
     - target: {fileID: 4034354574572894, guid: c469c07c5b45c454db32065c2f59b36b, type: 3}
       propertyPath: m_RootOrder
       value: 16
@@ -1794,6 +1856,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Police_car
       objectReference: {fileID: 0}
+    - target: {fileID: 1646981259178978, guid: f463242ba59e68243b7a693d4f0cfc18, type: 3}
+      propertyPath: m_TagString
+      value: DontDelete
+      objectReference: {fileID: 0}
     - target: {fileID: 4870167790249810, guid: f463242ba59e68243b7a693d4f0cfc18, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -1878,7 +1944,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5843464984382673365, guid: 7ee91ef82f11d3247975b53c3e60dbb1, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 42.87
+      value: 43.99
       objectReference: {fileID: 0}
     - target: {fileID: 5843464984382673365, guid: 7ee91ef82f11d3247975b53c3e60dbb1, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1911,6 +1977,10 @@ PrefabInstance:
     - target: {fileID: 6753112034338873663, guid: 7ee91ef82f11d3247975b53c3e60dbb1, type: 3}
       propertyPath: m_Name
       value: Street_Plain (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6753112034338873663, guid: 7ee91ef82f11d3247975b53c3e60dbb1, type: 3}
+      propertyPath: m_TagString
+      value: DontDelete
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7ee91ef82f11d3247975b53c3e60dbb1, type: 3}
@@ -2063,6 +2133,10 @@ PrefabInstance:
     - target: {fileID: 1180388739977234, guid: 4752f864e3118e64482c22f7a8d21b01, type: 3}
       propertyPath: m_Name
       value: Grass_stone_2_prefab (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1180388739977234, guid: 4752f864e3118e64482c22f7a8d21b01, type: 3}
+      propertyPath: m_TagString
+      value: DontDelete
       objectReference: {fileID: 0}
     - target: {fileID: 4333627001259202, guid: 4752f864e3118e64482c22f7a8d21b01, type: 3}
       propertyPath: m_RootOrder
@@ -2336,6 +2410,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Build_G-right_Prefab (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1366119518019564, guid: 19427fc607e7e5645a1f1fe831d3add4, type: 3}
+      propertyPath: m_TagString
+      value: DontDelete
+      objectReference: {fileID: 0}
     - target: {fileID: 4386006478067882, guid: 19427fc607e7e5645a1f1fe831d3add4, type: 3}
       propertyPath: m_RootOrder
       value: 8
@@ -2442,6 +2520,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Street_Plain (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 6753112034338873663, guid: 7ee91ef82f11d3247975b53c3e60dbb1, type: 3}
+      propertyPath: m_TagString
+      value: DontDelete
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7ee91ef82f11d3247975b53c3e60dbb1, type: 3}
 --- !u!4 &410052375 stripped
@@ -2459,6 +2541,10 @@ PrefabInstance:
     - target: {fileID: 1934853517836424, guid: 931ecb32d754b3f40afc9a688c8cea66, type: 3}
       propertyPath: m_Name
       value: Building_I_1_prefab
+      objectReference: {fileID: 0}
+    - target: {fileID: 1934853517836424, guid: 931ecb32d754b3f40afc9a688c8cea66, type: 3}
+      propertyPath: m_TagString
+      value: DontDelete
       objectReference: {fileID: 0}
     - target: {fileID: 4421704745708670, guid: 931ecb32d754b3f40afc9a688c8cea66, type: 3}
       propertyPath: m_RootOrder
@@ -2527,6 +2613,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sideway 4 prefab (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 1590873232276242, guid: f24cfa7ea7c5c764dad9dddadf04cde2, type: 3}
+      propertyPath: m_TagString
+      value: DontDelete
+      objectReference: {fileID: 0}
     - target: {fileID: 4135480120554540, guid: f24cfa7ea7c5c764dad9dddadf04cde2, type: 3}
       propertyPath: m_RootOrder
       value: 13
@@ -2588,6 +2678,10 @@ PrefabInstance:
     - target: {fileID: 1048912493813344, guid: 883cf758fdbaad44fbf987329131dbfb, type: 3}
       propertyPath: m_Name
       value: traffic_warning_stand prefab (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1048912493813344, guid: 883cf758fdbaad44fbf987329131dbfb, type: 3}
+      propertyPath: m_TagString
+      value: DontDelete
       objectReference: {fileID: 0}
     - target: {fileID: 4739541837513720, guid: 883cf758fdbaad44fbf987329131dbfb, type: 3}
       propertyPath: m_RootOrder
@@ -2651,6 +2745,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sideway 4 prefab (22)
       objectReference: {fileID: 0}
+    - target: {fileID: 1590873232276242, guid: f24cfa7ea7c5c764dad9dddadf04cde2, type: 3}
+      propertyPath: m_TagString
+      value: DontDelete
+      objectReference: {fileID: 0}
     - target: {fileID: 4135480120554540, guid: f24cfa7ea7c5c764dad9dddadf04cde2, type: 3}
       propertyPath: m_RootOrder
       value: 22
@@ -2713,6 +2811,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sideway 4 prefab (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 1590873232276242, guid: f24cfa7ea7c5c764dad9dddadf04cde2, type: 3}
+      propertyPath: m_TagString
+      value: DontDelete
+      objectReference: {fileID: 0}
     - target: {fileID: 4135480120554540, guid: f24cfa7ea7c5c764dad9dddadf04cde2, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -2774,6 +2876,10 @@ PrefabInstance:
     - target: {fileID: 1590873232276242, guid: f24cfa7ea7c5c764dad9dddadf04cde2, type: 3}
       propertyPath: m_Name
       value: Sideway 4 prefab (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1590873232276242, guid: f24cfa7ea7c5c764dad9dddadf04cde2, type: 3}
+      propertyPath: m_TagString
+      value: DontDelete
       objectReference: {fileID: 0}
     - target: {fileID: 4135480120554540, guid: f24cfa7ea7c5c764dad9dddadf04cde2, type: 3}
       propertyPath: m_RootOrder
@@ -2990,6 +3096,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Fence_B_1 prefab (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1231887845129900, guid: a0c9730978f0d194c9b79ac6b6aa2c60, type: 3}
+      propertyPath: m_TagString
+      value: DontDelete
+      objectReference: {fileID: 0}
     - target: {fileID: 4827410518518274, guid: a0c9730978f0d194c9b79ac6b6aa2c60, type: 3}
       propertyPath: m_RootOrder
       value: 15
@@ -3084,6 +3194,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sideway 4 prefab (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 1590873232276242, guid: f24cfa7ea7c5c764dad9dddadf04cde2, type: 3}
+      propertyPath: m_TagString
+      value: DontDelete
+      objectReference: {fileID: 0}
     - target: {fileID: 4135480120554540, guid: f24cfa7ea7c5c764dad9dddadf04cde2, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -3145,6 +3259,10 @@ PrefabInstance:
     - target: {fileID: 1180388739977234, guid: 4752f864e3118e64482c22f7a8d21b01, type: 3}
       propertyPath: m_Name
       value: Grass_stone_2_prefab (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1180388739977234, guid: 4752f864e3118e64482c22f7a8d21b01, type: 3}
+      propertyPath: m_TagString
+      value: DontDelete
       objectReference: {fileID: 0}
     - target: {fileID: 4333627001259202, guid: 4752f864e3118e64482c22f7a8d21b01, type: 3}
       propertyPath: m_RootOrder
@@ -3345,6 +3463,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sideway 4 prefab (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 1590873232276242, guid: f24cfa7ea7c5c764dad9dddadf04cde2, type: 3}
+      propertyPath: m_TagString
+      value: DontDelete
+      objectReference: {fileID: 0}
     - target: {fileID: 4135480120554540, guid: f24cfa7ea7c5c764dad9dddadf04cde2, type: 3}
       propertyPath: m_RootOrder
       value: 8
@@ -3451,6 +3573,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Street_Plain (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 6753112034338873663, guid: 7ee91ef82f11d3247975b53c3e60dbb1, type: 3}
+      propertyPath: m_TagString
+      value: DontDelete
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7ee91ef82f11d3247975b53c3e60dbb1, type: 3}
 --- !u!4 &592623478 stripped
@@ -3468,6 +3594,10 @@ PrefabInstance:
     - target: {fileID: 1231887845129900, guid: a0c9730978f0d194c9b79ac6b6aa2c60, type: 3}
       propertyPath: m_Name
       value: Fence_B_1 prefab
+      objectReference: {fileID: 0}
+    - target: {fileID: 1231887845129900, guid: a0c9730978f0d194c9b79ac6b6aa2c60, type: 3}
+      propertyPath: m_TagString
+      value: DontDelete
       objectReference: {fileID: 0}
     - target: {fileID: 4827410518518274, guid: a0c9730978f0d194c9b79ac6b6aa2c60, type: 3}
       propertyPath: m_RootOrder
@@ -3628,6 +3758,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Fence_B_2 prefab (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 1655290938631246, guid: c469c07c5b45c454db32065c2f59b36b, type: 3}
+      propertyPath: m_TagString
+      value: DontDelete
+      objectReference: {fileID: 0}
     - target: {fileID: 4034354574572894, guid: c469c07c5b45c454db32065c2f59b36b, type: 3}
       propertyPath: m_RootOrder
       value: 11
@@ -3689,6 +3823,10 @@ PrefabInstance:
     - target: {fileID: 1590873232276242, guid: f24cfa7ea7c5c764dad9dddadf04cde2, type: 3}
       propertyPath: m_Name
       value: Sideway 4 prefab (24)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1590873232276242, guid: f24cfa7ea7c5c764dad9dddadf04cde2, type: 3}
+      propertyPath: m_TagString
+      value: DontDelete
       objectReference: {fileID: 0}
     - target: {fileID: 4135480120554540, guid: f24cfa7ea7c5c764dad9dddadf04cde2, type: 3}
       propertyPath: m_RootOrder
@@ -3804,6 +3942,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BankAlarm (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 8461416361685434347, guid: d5c59e500d35f7d4986227be692621ef, type: 3}
+      propertyPath: m_TagString
+      value: DontDelete
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d5c59e500d35f7d4986227be692621ef, type: 3}
 --- !u!4 &640411052 stripped
@@ -3822,7 +3964,7 @@ GameObject:
   - component: {fileID: 643090146}
   m_Layer: 0
   m_Name: Streets
-  m_TagString: Untagged
+  m_TagString: DontDelete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3866,6 +4008,10 @@ PrefabInstance:
     - target: {fileID: 1048912493813344, guid: 883cf758fdbaad44fbf987329131dbfb, type: 3}
       propertyPath: m_Name
       value: traffic_warning_stand prefab (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1048912493813344, guid: 883cf758fdbaad44fbf987329131dbfb, type: 3}
+      propertyPath: m_TagString
+      value: DontDelete
       objectReference: {fileID: 0}
     - target: {fileID: 4739541837513720, guid: 883cf758fdbaad44fbf987329131dbfb, type: 3}
       propertyPath: m_RootOrder
@@ -3929,6 +4075,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sideway 4 prefab (19)
       objectReference: {fileID: 0}
+    - target: {fileID: 1590873232276242, guid: f24cfa7ea7c5c764dad9dddadf04cde2, type: 3}
+      propertyPath: m_TagString
+      value: DontDelete
+      objectReference: {fileID: 0}
     - target: {fileID: 4135480120554540, guid: f24cfa7ea7c5c764dad9dddadf04cde2, type: 3}
       propertyPath: m_RootOrder
       value: 19
@@ -3990,6 +4140,10 @@ PrefabInstance:
     - target: {fileID: 1590873232276242, guid: f24cfa7ea7c5c764dad9dddadf04cde2, type: 3}
       propertyPath: m_Name
       value: Sideway 4 prefab (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1590873232276242, guid: f24cfa7ea7c5c764dad9dddadf04cde2, type: 3}
+      propertyPath: m_TagString
+      value: DontDelete
       objectReference: {fileID: 0}
     - target: {fileID: 4135480120554540, guid: f24cfa7ea7c5c764dad9dddadf04cde2, type: 3}
       propertyPath: m_RootOrder
@@ -4082,6 +4236,10 @@ PrefabInstance:
     - target: {fileID: 1060771982902304, guid: abc98a3329f924b4680c86edde08968d, type: 3}
       propertyPath: m_Name
       value: Hydrant prefab
+      objectReference: {fileID: 0}
+    - target: {fileID: 1060771982902304, guid: abc98a3329f924b4680c86edde08968d, type: 3}
+      propertyPath: m_TagString
+      value: DontDelete
       objectReference: {fileID: 0}
     - target: {fileID: 4500247197365784, guid: abc98a3329f924b4680c86edde08968d, type: 3}
       propertyPath: m_RootOrder
@@ -4215,6 +4373,10 @@ PrefabInstance:
     - target: {fileID: 1590873232276242, guid: f24cfa7ea7c5c764dad9dddadf04cde2, type: 3}
       propertyPath: m_Name
       value: Sideway 4 prefab (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1590873232276242, guid: f24cfa7ea7c5c764dad9dddadf04cde2, type: 3}
+      propertyPath: m_TagString
+      value: DontDelete
       objectReference: {fileID: 0}
     - target: {fileID: 4135480120554540, guid: f24cfa7ea7c5c764dad9dddadf04cde2, type: 3}
       propertyPath: m_RootOrder
@@ -4356,6 +4518,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Fence_B_2 prefab (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1655290938631246, guid: c469c07c5b45c454db32065c2f59b36b, type: 3}
+      propertyPath: m_TagString
+      value: DontDelete
+      objectReference: {fileID: 0}
     - target: {fileID: 4034354574572894, guid: c469c07c5b45c454db32065c2f59b36b, type: 3}
       propertyPath: m_RootOrder
       value: 10
@@ -4422,6 +4588,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1631595132073662, guid: 2c1f60045e2f58f48966f8cea8354944, type: 3}
+      propertyPath: m_TagString
+      value: DontDelete
+      objectReference: {fileID: 0}
     - target: {fileID: 4826099665648010, guid: 2c1f60045e2f58f48966f8cea8354944, type: 3}
       propertyPath: m_RootOrder
       value: 7
@@ -4483,6 +4653,10 @@ PrefabInstance:
     - target: {fileID: 1655290938631246, guid: c469c07c5b45c454db32065c2f59b36b, type: 3}
       propertyPath: m_Name
       value: Fence_B_2 prefab (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655290938631246, guid: c469c07c5b45c454db32065c2f59b36b, type: 3}
+      propertyPath: m_TagString
+      value: DontDelete
       objectReference: {fileID: 0}
     - target: {fileID: 4034354574572894, guid: c469c07c5b45c454db32065c2f59b36b, type: 3}
       propertyPath: m_RootOrder
@@ -4876,6 +5050,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grass_stone_2_prefab (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 1180388739977234, guid: 4752f864e3118e64482c22f7a8d21b01, type: 3}
+      propertyPath: m_TagString
+      value: DontDelete
+      objectReference: {fileID: 0}
     - target: {fileID: 4333627001259202, guid: 4752f864e3118e64482c22f7a8d21b01, type: 3}
       propertyPath: m_RootOrder
       value: 6
@@ -5071,7 +5249,7 @@ GameObject:
   - component: {fileID: 943120228}
   m_Layer: 0
   m_Name: Props
-  m_TagString: Untagged
+  m_TagString: DontDelete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5312,6 +5490,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: parking meter prefab
       objectReference: {fileID: 0}
+    - target: {fileID: 1321317634356290, guid: dbdf3da5684f16d4fb4464f7337c942e, type: 3}
+      propertyPath: m_TagString
+      value: DontDelete
+      objectReference: {fileID: 0}
     - target: {fileID: 4923929284851280, guid: dbdf3da5684f16d4fb4464f7337c942e, type: 3}
       propertyPath: m_RootOrder
       value: 13
@@ -5451,6 +5633,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BankAlarm (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 8461416361685434347, guid: d5c59e500d35f7d4986227be692621ef, type: 3}
+      propertyPath: m_TagString
+      value: DontDelete
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d5c59e500d35f7d4986227be692621ef, type: 3}
 --- !u!4 &1084726669 stripped
@@ -5498,6 +5684,10 @@ PrefabInstance:
     - target: {fileID: 1646981259178978, guid: f463242ba59e68243b7a693d4f0cfc18, type: 3}
       propertyPath: m_Name
       value: Police_car (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1646981259178978, guid: f463242ba59e68243b7a693d4f0cfc18, type: 3}
+      propertyPath: m_TagString
+      value: DontDelete
       objectReference: {fileID: 0}
     - target: {fileID: 4870167790249810, guid: f463242ba59e68243b7a693d4f0cfc18, type: 3}
       propertyPath: m_RootOrder
@@ -5572,6 +5762,10 @@ PrefabInstance:
     - target: {fileID: 1590873232276242, guid: f24cfa7ea7c5c764dad9dddadf04cde2, type: 3}
       propertyPath: m_Name
       value: Sideway 4 prefab (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1590873232276242, guid: f24cfa7ea7c5c764dad9dddadf04cde2, type: 3}
+      propertyPath: m_TagString
+      value: DontDelete
       objectReference: {fileID: 0}
     - target: {fileID: 4135480120554540, guid: f24cfa7ea7c5c764dad9dddadf04cde2, type: 3}
       propertyPath: m_RootOrder
@@ -5684,6 +5878,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Street_Plain (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 6753112034338873663, guid: 7ee91ef82f11d3247975b53c3e60dbb1, type: 3}
+      propertyPath: m_TagString
+      value: DontDelete
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7ee91ef82f11d3247975b53c3e60dbb1, type: 3}
 --- !u!4 &1162159489 stripped
@@ -5701,6 +5899,10 @@ PrefabInstance:
     - target: {fileID: 1180388739977234, guid: 4752f864e3118e64482c22f7a8d21b01, type: 3}
       propertyPath: m_Name
       value: Grass_stone_2_prefab
+      objectReference: {fileID: 0}
+    - target: {fileID: 1180388739977234, guid: 4752f864e3118e64482c22f7a8d21b01, type: 3}
+      propertyPath: m_TagString
+      value: DontDelete
       objectReference: {fileID: 0}
     - target: {fileID: 4333627001259202, guid: 4752f864e3118e64482c22f7a8d21b01, type: 3}
       propertyPath: m_RootOrder
@@ -5763,6 +5965,10 @@ PrefabInstance:
     - target: {fileID: 1180388739977234, guid: 4752f864e3118e64482c22f7a8d21b01, type: 3}
       propertyPath: m_Name
       value: Grass_stone_2_prefab (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1180388739977234, guid: 4752f864e3118e64482c22f7a8d21b01, type: 3}
+      propertyPath: m_TagString
+      value: DontDelete
       objectReference: {fileID: 0}
     - target: {fileID: 4333627001259202, guid: 4752f864e3118e64482c22f7a8d21b01, type: 3}
       propertyPath: m_RootOrder
@@ -5902,7 +6108,7 @@ GameObject:
   - component: {fileID: 1220411381}
   m_Layer: 0
   m_Name: BankZone
-  m_TagString: Untagged
+  m_TagString: DontDelete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5997,6 +6203,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Street_Plain (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 6753112034338873663, guid: 7ee91ef82f11d3247975b53c3e60dbb1, type: 3}
+      propertyPath: m_TagString
+      value: DontDelete
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7ee91ef82f11d3247975b53c3e60dbb1, type: 3}
 --- !u!4 &1238293348 stripped
@@ -6014,6 +6224,10 @@ PrefabInstance:
     - target: {fileID: 1048912493813344, guid: 883cf758fdbaad44fbf987329131dbfb, type: 3}
       propertyPath: m_Name
       value: traffic_warning_stand prefab
+      objectReference: {fileID: 0}
+    - target: {fileID: 1048912493813344, guid: 883cf758fdbaad44fbf987329131dbfb, type: 3}
+      propertyPath: m_TagString
+      value: DontDelete
       objectReference: {fileID: 0}
     - target: {fileID: 4739541837513720, guid: 883cf758fdbaad44fbf987329131dbfb, type: 3}
       propertyPath: m_RootOrder
@@ -6076,6 +6290,10 @@ PrefabInstance:
     - target: {fileID: 1590873232276242, guid: f24cfa7ea7c5c764dad9dddadf04cde2, type: 3}
       propertyPath: m_Name
       value: Sideway 4 prefab (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1590873232276242, guid: f24cfa7ea7c5c764dad9dddadf04cde2, type: 3}
+      propertyPath: m_TagString
+      value: DontDelete
       objectReference: {fileID: 0}
     - target: {fileID: 4135480120554540, guid: f24cfa7ea7c5c764dad9dddadf04cde2, type: 3}
       propertyPath: m_RootOrder
@@ -6276,6 +6494,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Street_Plain (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 6753112034338873663, guid: 7ee91ef82f11d3247975b53c3e60dbb1, type: 3}
+      propertyPath: m_TagString
+      value: DontDelete
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7ee91ef82f11d3247975b53c3e60dbb1, type: 3}
 --- !u!4 &1314396747 stripped
@@ -6427,6 +6649,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: parking meter prefab (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1321317634356290, guid: dbdf3da5684f16d4fb4464f7337c942e, type: 3}
+      propertyPath: m_TagString
+      value: DontDelete
+      objectReference: {fileID: 0}
     - target: {fileID: 4923929284851280, guid: dbdf3da5684f16d4fb4464f7337c942e, type: 3}
       propertyPath: m_RootOrder
       value: 17
@@ -6541,6 +6767,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BankAlarm (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 8461416361685434347, guid: d5c59e500d35f7d4986227be692621ef, type: 3}
+      propertyPath: m_TagString
+      value: DontDelete
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d5c59e500d35f7d4986227be692621ef, type: 3}
 --- !u!4 &1321383554 stripped
@@ -6603,6 +6833,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Street_Plain (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 6753112034338873663, guid: 7ee91ef82f11d3247975b53c3e60dbb1, type: 3}
+      propertyPath: m_TagString
+      value: DontDelete
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7ee91ef82f11d3247975b53c3e60dbb1, type: 3}
 --- !u!4 &1324088000 stripped
@@ -6620,6 +6854,10 @@ PrefabInstance:
     - target: {fileID: 1646961398783488, guid: dd28fe4d5eb7bcb479b5338f128cdf70, type: 3}
       propertyPath: m_Name
       value: Bin prefab
+      objectReference: {fileID: 0}
+    - target: {fileID: 1646961398783488, guid: dd28fe4d5eb7bcb479b5338f128cdf70, type: 3}
+      propertyPath: m_TagString
+      value: DontDelete
       objectReference: {fileID: 0}
     - target: {fileID: 4096586194150716, guid: dd28fe4d5eb7bcb479b5338f128cdf70, type: 3}
       propertyPath: m_RootOrder
@@ -6722,6 +6960,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Street_Plain (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 6753112034338873663, guid: 7ee91ef82f11d3247975b53c3e60dbb1, type: 3}
+      propertyPath: m_TagString
+      value: DontDelete
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7ee91ef82f11d3247975b53c3e60dbb1, type: 3}
 --- !u!4 &1387797655 stripped
@@ -6739,6 +6981,10 @@ PrefabInstance:
     - target: {fileID: 1590873232276242, guid: f24cfa7ea7c5c764dad9dddadf04cde2, type: 3}
       propertyPath: m_Name
       value: Sideway 4 prefab (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1590873232276242, guid: f24cfa7ea7c5c764dad9dddadf04cde2, type: 3}
+      propertyPath: m_TagString
+      value: DontDelete
       objectReference: {fileID: 0}
     - target: {fileID: 4135480120554540, guid: f24cfa7ea7c5c764dad9dddadf04cde2, type: 3}
       propertyPath: m_RootOrder
@@ -6885,6 +7131,10 @@ PrefabInstance:
     - target: {fileID: 1590873232276242, guid: f24cfa7ea7c5c764dad9dddadf04cde2, type: 3}
       propertyPath: m_Name
       value: Sideway 4 prefab (26)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1590873232276242, guid: f24cfa7ea7c5c764dad9dddadf04cde2, type: 3}
+      propertyPath: m_TagString
+      value: DontDelete
       objectReference: {fileID: 0}
     - target: {fileID: 4135480120554540, guid: f24cfa7ea7c5c764dad9dddadf04cde2, type: 3}
       propertyPath: m_RootOrder
@@ -7090,6 +7340,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sideway 4 prefab (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 1590873232276242, guid: f24cfa7ea7c5c764dad9dddadf04cde2, type: 3}
+      propertyPath: m_TagString
+      value: DontDelete
+      objectReference: {fileID: 0}
     - target: {fileID: 4135480120554540, guid: f24cfa7ea7c5c764dad9dddadf04cde2, type: 3}
       propertyPath: m_RootOrder
       value: 5
@@ -7152,6 +7406,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grass_stone_2_prefab (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 1180388739977234, guid: 4752f864e3118e64482c22f7a8d21b01, type: 3}
+      propertyPath: m_TagString
+      value: DontDelete
+      objectReference: {fileID: 0}
     - target: {fileID: 4333627001259202, guid: 4752f864e3118e64482c22f7a8d21b01, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -7210,9 +7468,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1498283882}
     m_Modifications:
+    - target: {fileID: 1124859566972604, guid: ac16a24c584766f4e905adc7db85b93d, type: 3}
+      propertyPath: m_TagString
+      value: DontDelete
+      objectReference: {fileID: 0}
     - target: {fileID: 1646639913439324, guid: ac16a24c584766f4e905adc7db85b93d, type: 3}
       propertyPath: m_Name
       value: Building_K_prefab
+      objectReference: {fileID: 0}
+    - target: {fileID: 1646639913439324, guid: ac16a24c584766f4e905adc7db85b93d, type: 3}
+      propertyPath: m_TagString
+      value: DontDelete
       objectReference: {fileID: 0}
     - target: {fileID: 4539606987814986, guid: ac16a24c584766f4e905adc7db85b93d, type: 3}
       propertyPath: m_RootOrder
@@ -7276,7 +7542,7 @@ GameObject:
   - component: {fileID: 1498283882}
   m_Layer: 0
   m_Name: Buildings
-  m_TagString: Untagged
+  m_TagString: DontDelete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7309,7 +7575,7 @@ GameObject:
   - component: {fileID: 1499434283}
   m_Layer: 0
   m_Name: StarterArea
-  m_TagString: Untagged
+  m_TagString: DontDelete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7362,6 +7628,10 @@ PrefabInstance:
     - target: {fileID: 1520711273483040, guid: 331560f2206dc024cb084301a19c05ad, type: 3}
       propertyPath: m_Name
       value: Big_trash_bin prefab (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1520711273483040, guid: 331560f2206dc024cb084301a19c05ad, type: 3}
+      propertyPath: m_TagString
+      value: DontDelete
       objectReference: {fileID: 0}
     - target: {fileID: 4884130492571914, guid: 331560f2206dc024cb084301a19c05ad, type: 3}
       propertyPath: m_RootOrder
@@ -7453,6 +7723,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Build_G-right_Prefab
       objectReference: {fileID: 0}
+    - target: {fileID: 1366119518019564, guid: 19427fc607e7e5645a1f1fe831d3add4, type: 3}
+      propertyPath: m_TagString
+      value: DontDelete
+      objectReference: {fileID: 0}
     - target: {fileID: 4386006478067882, guid: 19427fc607e7e5645a1f1fe831d3add4, type: 3}
       propertyPath: m_RootOrder
       value: 21
@@ -7510,6 +7784,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Big_trash_bin prefab
       objectReference: {fileID: 0}
+    - target: {fileID: 1520711273483040, guid: 331560f2206dc024cb084301a19c05ad, type: 3}
+      propertyPath: m_TagString
+      value: DontDelete
+      objectReference: {fileID: 0}
     - target: {fileID: 4884130492571914, guid: 331560f2206dc024cb084301a19c05ad, type: 3}
       propertyPath: m_RootOrder
       value: 19
@@ -7563,6 +7841,30 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 643090146}
     m_Modifications:
+    - target: {fileID: 1091123774771224194, guid: 7ee91ef82f11d3247975b53c3e60dbb1, type: 3}
+      propertyPath: m_TagString
+      value: DontDelete
+      objectReference: {fileID: 0}
+    - target: {fileID: 1091487084969550718, guid: 7ee91ef82f11d3247975b53c3e60dbb1, type: 3}
+      propertyPath: m_TagString
+      value: DontDelete
+      objectReference: {fileID: 0}
+    - target: {fileID: 1694025487910878743, guid: 7ee91ef82f11d3247975b53c3e60dbb1, type: 3}
+      propertyPath: m_TagString
+      value: DontDelete
+      objectReference: {fileID: 0}
+    - target: {fileID: 2116699614777655316, guid: 7ee91ef82f11d3247975b53c3e60dbb1, type: 3}
+      propertyPath: m_TagString
+      value: DontDelete
+      objectReference: {fileID: 0}
+    - target: {fileID: 3523377784172881773, guid: 7ee91ef82f11d3247975b53c3e60dbb1, type: 3}
+      propertyPath: m_TagString
+      value: DontDelete
+      objectReference: {fileID: 0}
+    - target: {fileID: 4143593776804484815, guid: 7ee91ef82f11d3247975b53c3e60dbb1, type: 3}
+      propertyPath: m_TagString
+      value: DontDelete
+      objectReference: {fileID: 0}
     - target: {fileID: 5843464984382673365, guid: 7ee91ef82f11d3247975b53c3e60dbb1, type: 3}
       propertyPath: m_RootOrder
       value: 13
@@ -7607,9 +7909,33 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6045648562977717850, guid: 7ee91ef82f11d3247975b53c3e60dbb1, type: 3}
+      propertyPath: m_TagString
+      value: DontDelete
+      objectReference: {fileID: 0}
+    - target: {fileID: 6340162521806622549, guid: 7ee91ef82f11d3247975b53c3e60dbb1, type: 3}
+      propertyPath: m_TagString
+      value: DontDelete
+      objectReference: {fileID: 0}
+    - target: {fileID: 6456027978030463578, guid: 7ee91ef82f11d3247975b53c3e60dbb1, type: 3}
+      propertyPath: m_TagString
+      value: DontDelete
+      objectReference: {fileID: 0}
     - target: {fileID: 6753112034338873663, guid: 7ee91ef82f11d3247975b53c3e60dbb1, type: 3}
       propertyPath: m_Name
       value: Street_Plain (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6753112034338873663, guid: 7ee91ef82f11d3247975b53c3e60dbb1, type: 3}
+      propertyPath: m_TagString
+      value: DontDelete
+      objectReference: {fileID: 0}
+    - target: {fileID: 8460435725432779659, guid: 7ee91ef82f11d3247975b53c3e60dbb1, type: 3}
+      propertyPath: m_TagString
+      value: DontDelete
+      objectReference: {fileID: 0}
+    - target: {fileID: 8461824015440987107, guid: 7ee91ef82f11d3247975b53c3e60dbb1, type: 3}
+      propertyPath: m_TagString
+      value: DontDelete
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7ee91ef82f11d3247975b53c3e60dbb1, type: 3}
@@ -7673,6 +7999,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Street_Plain (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 6753112034338873663, guid: 7ee91ef82f11d3247975b53c3e60dbb1, type: 3}
+      propertyPath: m_TagString
+      value: DontDelete
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7ee91ef82f11d3247975b53c3e60dbb1, type: 3}
 --- !u!4 &1654540623 stripped
@@ -7690,6 +8020,10 @@ PrefabInstance:
     - target: {fileID: 1756696917985646, guid: 6a21df4da585e0946a2b991447fabcc6, type: 3}
       propertyPath: m_Name
       value: burger prefab
+      objectReference: {fileID: 0}
+    - target: {fileID: 1756696917985646, guid: 6a21df4da585e0946a2b991447fabcc6, type: 3}
+      propertyPath: m_TagString
+      value: DontDelete
       objectReference: {fileID: 0}
     - target: {fileID: 4222056949448446, guid: 6a21df4da585e0946a2b991447fabcc6, type: 3}
       propertyPath: m_RootOrder
@@ -7792,6 +8126,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Street_Plain (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 6753112034338873663, guid: 7ee91ef82f11d3247975b53c3e60dbb1, type: 3}
+      propertyPath: m_TagString
+      value: DontDelete
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7ee91ef82f11d3247975b53c3e60dbb1, type: 3}
 --- !u!4 &1695765359 stripped
@@ -7809,6 +8147,10 @@ PrefabInstance:
     - target: {fileID: 1048912493813344, guid: 883cf758fdbaad44fbf987329131dbfb, type: 3}
       propertyPath: m_Name
       value: traffic_warning_stand prefab (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1048912493813344, guid: 883cf758fdbaad44fbf987329131dbfb, type: 3}
+      propertyPath: m_TagString
+      value: DontDelete
       objectReference: {fileID: 0}
     - target: {fileID: 4739541837513720, guid: 883cf758fdbaad44fbf987329131dbfb, type: 3}
       propertyPath: m_RootOrder
@@ -7868,6 +8210,46 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 643090146}
     m_Modifications:
+    - target: {fileID: 1091123774771224194, guid: 7ee91ef82f11d3247975b53c3e60dbb1, type: 3}
+      propertyPath: m_TagString
+      value: DontDelete
+      objectReference: {fileID: 0}
+    - target: {fileID: 1091487084969550718, guid: 7ee91ef82f11d3247975b53c3e60dbb1, type: 3}
+      propertyPath: m_TagString
+      value: DontDelete
+      objectReference: {fileID: 0}
+    - target: {fileID: 1694025487910878743, guid: 7ee91ef82f11d3247975b53c3e60dbb1, type: 3}
+      propertyPath: m_TagString
+      value: DontDelete
+      objectReference: {fileID: 0}
+    - target: {fileID: 1694483536782391969, guid: 7ee91ef82f11d3247975b53c3e60dbb1, type: 3}
+      propertyPath: m_TagString
+      value: DontDelete
+      objectReference: {fileID: 0}
+    - target: {fileID: 2116699614777655316, guid: 7ee91ef82f11d3247975b53c3e60dbb1, type: 3}
+      propertyPath: m_TagString
+      value: DontDelete
+      objectReference: {fileID: 0}
+    - target: {fileID: 2118933171537735804, guid: 7ee91ef82f11d3247975b53c3e60dbb1, type: 3}
+      propertyPath: m_TagString
+      value: DontDelete
+      objectReference: {fileID: 0}
+    - target: {fileID: 3523377784172881773, guid: 7ee91ef82f11d3247975b53c3e60dbb1, type: 3}
+      propertyPath: m_TagString
+      value: DontDelete
+      objectReference: {fileID: 0}
+    - target: {fileID: 3523450665917598323, guid: 7ee91ef82f11d3247975b53c3e60dbb1, type: 3}
+      propertyPath: m_TagString
+      value: DontDelete
+      objectReference: {fileID: 0}
+    - target: {fileID: 4143593776804484815, guid: 7ee91ef82f11d3247975b53c3e60dbb1, type: 3}
+      propertyPath: m_TagString
+      value: DontDelete
+      objectReference: {fileID: 0}
+    - target: {fileID: 4145388008238518905, guid: 7ee91ef82f11d3247975b53c3e60dbb1, type: 3}
+      propertyPath: m_TagString
+      value: DontDelete
+      objectReference: {fileID: 0}
     - target: {fileID: 5843464984382673365, guid: 7ee91ef82f11d3247975b53c3e60dbb1, type: 3}
       propertyPath: m_RootOrder
       value: 12
@@ -7912,9 +8294,45 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6043854537165961964, guid: 7ee91ef82f11d3247975b53c3e60dbb1, type: 3}
+      propertyPath: m_TagString
+      value: DontDelete
+      objectReference: {fileID: 0}
+    - target: {fileID: 6045648562977717850, guid: 7ee91ef82f11d3247975b53c3e60dbb1, type: 3}
+      propertyPath: m_TagString
+      value: DontDelete
+      objectReference: {fileID: 0}
+    - target: {fileID: 6339564971861248995, guid: 7ee91ef82f11d3247975b53c3e60dbb1, type: 3}
+      propertyPath: m_TagString
+      value: DontDelete
+      objectReference: {fileID: 0}
+    - target: {fileID: 6340162521806622549, guid: 7ee91ef82f11d3247975b53c3e60dbb1, type: 3}
+      propertyPath: m_TagString
+      value: DontDelete
+      objectReference: {fileID: 0}
+    - target: {fileID: 6455956136557041476, guid: 7ee91ef82f11d3247975b53c3e60dbb1, type: 3}
+      propertyPath: m_TagString
+      value: DontDelete
+      objectReference: {fileID: 0}
+    - target: {fileID: 6456027978030463578, guid: 7ee91ef82f11d3247975b53c3e60dbb1, type: 3}
+      propertyPath: m_TagString
+      value: DontDelete
+      objectReference: {fileID: 0}
     - target: {fileID: 6753112034338873663, guid: 7ee91ef82f11d3247975b53c3e60dbb1, type: 3}
       propertyPath: m_Name
       value: Street_Plain (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6753112034338873663, guid: 7ee91ef82f11d3247975b53c3e60dbb1, type: 3}
+      propertyPath: m_TagString
+      value: DontDelete
+      objectReference: {fileID: 0}
+    - target: {fileID: 8460435725432779659, guid: 7ee91ef82f11d3247975b53c3e60dbb1, type: 3}
+      propertyPath: m_TagString
+      value: DontDelete
+      objectReference: {fileID: 0}
+    - target: {fileID: 8461824015440987107, guid: 7ee91ef82f11d3247975b53c3e60dbb1, type: 3}
+      propertyPath: m_TagString
+      value: DontDelete
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7ee91ef82f11d3247975b53c3e60dbb1, type: 3}
@@ -7933,6 +8351,10 @@ PrefabInstance:
     - target: {fileID: 1590873232276242, guid: f24cfa7ea7c5c764dad9dddadf04cde2, type: 3}
       propertyPath: m_Name
       value: Sideway 4 prefab (25)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1590873232276242, guid: f24cfa7ea7c5c764dad9dddadf04cde2, type: 3}
+      propertyPath: m_TagString
+      value: DontDelete
       objectReference: {fileID: 0}
     - target: {fileID: 4135480120554540, guid: f24cfa7ea7c5c764dad9dddadf04cde2, type: 3}
       propertyPath: m_RootOrder
@@ -7996,6 +8418,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sideway 4 prefab (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 1590873232276242, guid: f24cfa7ea7c5c764dad9dddadf04cde2, type: 3}
+      propertyPath: m_TagString
+      value: DontDelete
+      objectReference: {fileID: 0}
     - target: {fileID: 4135480120554540, guid: f24cfa7ea7c5c764dad9dddadf04cde2, type: 3}
       propertyPath: m_RootOrder
       value: 7
@@ -8057,6 +8483,10 @@ PrefabInstance:
     - target: {fileID: 1590873232276242, guid: f24cfa7ea7c5c764dad9dddadf04cde2, type: 3}
       propertyPath: m_Name
       value: Sideway 4 prefab
+      objectReference: {fileID: 0}
+    - target: {fileID: 1590873232276242, guid: f24cfa7ea7c5c764dad9dddadf04cde2, type: 3}
+      propertyPath: m_TagString
+      value: DontDelete
       objectReference: {fileID: 0}
     - target: {fileID: 4135480120554540, guid: f24cfa7ea7c5c764dad9dddadf04cde2, type: 3}
       propertyPath: m_RootOrder
@@ -8297,6 +8727,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ATM_prefab
       objectReference: {fileID: 0}
+    - target: {fileID: 1272271882287062, guid: 971885f35036d834d9e87999c41920fe, type: 3}
+      propertyPath: m_TagString
+      value: DontDelete
+      objectReference: {fileID: 0}
     - target: {fileID: 4529547751229238, guid: 971885f35036d834d9e87999c41920fe, type: 3}
       propertyPath: m_RootOrder
       value: 20
@@ -8353,6 +8787,10 @@ PrefabInstance:
     - target: {fileID: 1590873232276242, guid: f24cfa7ea7c5c764dad9dddadf04cde2, type: 3}
       propertyPath: m_Name
       value: Sideway 4 prefab (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1590873232276242, guid: f24cfa7ea7c5c764dad9dddadf04cde2, type: 3}
+      propertyPath: m_TagString
+      value: DontDelete
       objectReference: {fileID: 0}
     - target: {fileID: 4135480120554540, guid: f24cfa7ea7c5c764dad9dddadf04cde2, type: 3}
       propertyPath: m_RootOrder
@@ -8495,6 +8933,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Fence_B_1 prefab (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1231887845129900, guid: a0c9730978f0d194c9b79ac6b6aa2c60, type: 3}
+      propertyPath: m_TagString
+      value: DontDelete
+      objectReference: {fileID: 0}
     - target: {fileID: 4827410518518274, guid: a0c9730978f0d194c9b79ac6b6aa2c60, type: 3}
       propertyPath: m_RootOrder
       value: 13
@@ -8608,6 +9050,10 @@ PrefabInstance:
     - target: {fileID: 8461416361685434347, guid: d5c59e500d35f7d4986227be692621ef, type: 3}
       propertyPath: m_Name
       value: BankAlarm (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8461416361685434347, guid: d5c59e500d35f7d4986227be692621ef, type: 3}
+      propertyPath: m_TagString
+      value: DontDelete
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d5c59e500d35f7d4986227be692621ef, type: 3}
@@ -8843,9 +9289,177 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1499434283}
     m_Modifications:
+    - target: {fileID: 1012094452815304, guid: 110af0d3eee946d4d9ee0ca4e522611a, type: 3}
+      propertyPath: m_TagString
+      value: DontDelete
+      objectReference: {fileID: 0}
+    - target: {fileID: 1113085921983778, guid: 110af0d3eee946d4d9ee0ca4e522611a, type: 3}
+      propertyPath: m_TagString
+      value: DontDelete
+      objectReference: {fileID: 0}
+    - target: {fileID: 1113583229354890, guid: 110af0d3eee946d4d9ee0ca4e522611a, type: 3}
+      propertyPath: m_TagString
+      value: DontDelete
+      objectReference: {fileID: 0}
+    - target: {fileID: 1152676554244580, guid: 110af0d3eee946d4d9ee0ca4e522611a, type: 3}
+      propertyPath: m_TagString
+      value: DontDelete
+      objectReference: {fileID: 0}
+    - target: {fileID: 1168067912643048, guid: 110af0d3eee946d4d9ee0ca4e522611a, type: 3}
+      propertyPath: m_TagString
+      value: DontDelete
+      objectReference: {fileID: 0}
+    - target: {fileID: 1172616444181168, guid: 110af0d3eee946d4d9ee0ca4e522611a, type: 3}
+      propertyPath: m_TagString
+      value: DontDelete
+      objectReference: {fileID: 0}
     - target: {fileID: 1173778661502458, guid: 110af0d3eee946d4d9ee0ca4e522611a, type: 3}
       propertyPath: m_Name
       value: StreetSellerStand prefab
+      objectReference: {fileID: 0}
+    - target: {fileID: 1173778661502458, guid: 110af0d3eee946d4d9ee0ca4e522611a, type: 3}
+      propertyPath: m_TagString
+      value: DontDelete
+      objectReference: {fileID: 0}
+    - target: {fileID: 1187481310486058, guid: 110af0d3eee946d4d9ee0ca4e522611a, type: 3}
+      propertyPath: m_TagString
+      value: DontDelete
+      objectReference: {fileID: 0}
+    - target: {fileID: 1226062240035626, guid: 110af0d3eee946d4d9ee0ca4e522611a, type: 3}
+      propertyPath: m_TagString
+      value: DontDelete
+      objectReference: {fileID: 0}
+    - target: {fileID: 1231417096878350, guid: 110af0d3eee946d4d9ee0ca4e522611a, type: 3}
+      propertyPath: m_TagString
+      value: DontDelete
+      objectReference: {fileID: 0}
+    - target: {fileID: 1248380315028670, guid: 110af0d3eee946d4d9ee0ca4e522611a, type: 3}
+      propertyPath: m_TagString
+      value: DontDelete
+      objectReference: {fileID: 0}
+    - target: {fileID: 1249854944168496, guid: 110af0d3eee946d4d9ee0ca4e522611a, type: 3}
+      propertyPath: m_TagString
+      value: DontDelete
+      objectReference: {fileID: 0}
+    - target: {fileID: 1296587062922398, guid: 110af0d3eee946d4d9ee0ca4e522611a, type: 3}
+      propertyPath: m_TagString
+      value: DontDelete
+      objectReference: {fileID: 0}
+    - target: {fileID: 1309172283037812, guid: 110af0d3eee946d4d9ee0ca4e522611a, type: 3}
+      propertyPath: m_TagString
+      value: DontDelete
+      objectReference: {fileID: 0}
+    - target: {fileID: 1335518040766008, guid: 110af0d3eee946d4d9ee0ca4e522611a, type: 3}
+      propertyPath: m_TagString
+      value: DontDelete
+      objectReference: {fileID: 0}
+    - target: {fileID: 1350499003237996, guid: 110af0d3eee946d4d9ee0ca4e522611a, type: 3}
+      propertyPath: m_TagString
+      value: DontDelete
+      objectReference: {fileID: 0}
+    - target: {fileID: 1363277729268724, guid: 110af0d3eee946d4d9ee0ca4e522611a, type: 3}
+      propertyPath: m_TagString
+      value: DontDelete
+      objectReference: {fileID: 0}
+    - target: {fileID: 1388418311542180, guid: 110af0d3eee946d4d9ee0ca4e522611a, type: 3}
+      propertyPath: m_TagString
+      value: DontDelete
+      objectReference: {fileID: 0}
+    - target: {fileID: 1416109360428526, guid: 110af0d3eee946d4d9ee0ca4e522611a, type: 3}
+      propertyPath: m_TagString
+      value: DontDelete
+      objectReference: {fileID: 0}
+    - target: {fileID: 1488498240645594, guid: 110af0d3eee946d4d9ee0ca4e522611a, type: 3}
+      propertyPath: m_TagString
+      value: DontDelete
+      objectReference: {fileID: 0}
+    - target: {fileID: 1544439365555760, guid: 110af0d3eee946d4d9ee0ca4e522611a, type: 3}
+      propertyPath: m_TagString
+      value: DontDelete
+      objectReference: {fileID: 0}
+    - target: {fileID: 1549518981852780, guid: 110af0d3eee946d4d9ee0ca4e522611a, type: 3}
+      propertyPath: m_TagString
+      value: DontDelete
+      objectReference: {fileID: 0}
+    - target: {fileID: 1555557767311398, guid: 110af0d3eee946d4d9ee0ca4e522611a, type: 3}
+      propertyPath: m_TagString
+      value: DontDelete
+      objectReference: {fileID: 0}
+    - target: {fileID: 1568033762344668, guid: 110af0d3eee946d4d9ee0ca4e522611a, type: 3}
+      propertyPath: m_TagString
+      value: DontDelete
+      objectReference: {fileID: 0}
+    - target: {fileID: 1627521421556534, guid: 110af0d3eee946d4d9ee0ca4e522611a, type: 3}
+      propertyPath: m_TagString
+      value: DontDelete
+      objectReference: {fileID: 0}
+    - target: {fileID: 1634532549183020, guid: 110af0d3eee946d4d9ee0ca4e522611a, type: 3}
+      propertyPath: m_TagString
+      value: DontDelete
+      objectReference: {fileID: 0}
+    - target: {fileID: 1638310260422810, guid: 110af0d3eee946d4d9ee0ca4e522611a, type: 3}
+      propertyPath: m_TagString
+      value: DontDelete
+      objectReference: {fileID: 0}
+    - target: {fileID: 1644183559034148, guid: 110af0d3eee946d4d9ee0ca4e522611a, type: 3}
+      propertyPath: m_TagString
+      value: DontDelete
+      objectReference: {fileID: 0}
+    - target: {fileID: 1644690386524530, guid: 110af0d3eee946d4d9ee0ca4e522611a, type: 3}
+      propertyPath: m_TagString
+      value: DontDelete
+      objectReference: {fileID: 0}
+    - target: {fileID: 1656316193452500, guid: 110af0d3eee946d4d9ee0ca4e522611a, type: 3}
+      propertyPath: m_TagString
+      value: DontDelete
+      objectReference: {fileID: 0}
+    - target: {fileID: 1686439519335338, guid: 110af0d3eee946d4d9ee0ca4e522611a, type: 3}
+      propertyPath: m_TagString
+      value: DontDelete
+      objectReference: {fileID: 0}
+    - target: {fileID: 1686646712229960, guid: 110af0d3eee946d4d9ee0ca4e522611a, type: 3}
+      propertyPath: m_TagString
+      value: DontDelete
+      objectReference: {fileID: 0}
+    - target: {fileID: 1688561411194590, guid: 110af0d3eee946d4d9ee0ca4e522611a, type: 3}
+      propertyPath: m_TagString
+      value: DontDelete
+      objectReference: {fileID: 0}
+    - target: {fileID: 1710876375418210, guid: 110af0d3eee946d4d9ee0ca4e522611a, type: 3}
+      propertyPath: m_TagString
+      value: DontDelete
+      objectReference: {fileID: 0}
+    - target: {fileID: 1722103175334126, guid: 110af0d3eee946d4d9ee0ca4e522611a, type: 3}
+      propertyPath: m_TagString
+      value: DontDelete
+      objectReference: {fileID: 0}
+    - target: {fileID: 1758393579889308, guid: 110af0d3eee946d4d9ee0ca4e522611a, type: 3}
+      propertyPath: m_TagString
+      value: DontDelete
+      objectReference: {fileID: 0}
+    - target: {fileID: 1760516944806622, guid: 110af0d3eee946d4d9ee0ca4e522611a, type: 3}
+      propertyPath: m_TagString
+      value: DontDelete
+      objectReference: {fileID: 0}
+    - target: {fileID: 1773928125904684, guid: 110af0d3eee946d4d9ee0ca4e522611a, type: 3}
+      propertyPath: m_TagString
+      value: DontDelete
+      objectReference: {fileID: 0}
+    - target: {fileID: 1863710864813046, guid: 110af0d3eee946d4d9ee0ca4e522611a, type: 3}
+      propertyPath: m_TagString
+      value: DontDelete
+      objectReference: {fileID: 0}
+    - target: {fileID: 1871502481291788, guid: 110af0d3eee946d4d9ee0ca4e522611a, type: 3}
+      propertyPath: m_TagString
+      value: DontDelete
+      objectReference: {fileID: 0}
+    - target: {fileID: 1948088553590896, guid: 110af0d3eee946d4d9ee0ca4e522611a, type: 3}
+      propertyPath: m_TagString
+      value: DontDelete
+      objectReference: {fileID: 0}
+    - target: {fileID: 1976855232552116, guid: 110af0d3eee946d4d9ee0ca4e522611a, type: 3}
+      propertyPath: m_TagString
+      value: DontDelete
       objectReference: {fileID: 0}
     - target: {fileID: 4857008648702526, guid: 110af0d3eee946d4d9ee0ca4e522611a, type: 3}
       propertyPath: m_RootOrder
@@ -8904,7 +9518,7 @@ GameObject:
   - component: {fileID: 2049461719}
   m_Layer: 0
   m_Name: Sidewalk
-  m_TagString: Untagged
+  m_TagString: DontDelete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8960,6 +9574,10 @@ PrefabInstance:
     - target: {fileID: 1403461033924870, guid: 03f4debef6f82ef43b174ff67987c532, type: 3}
       propertyPath: m_Name
       value: Hospital_prefab
+      objectReference: {fileID: 0}
+    - target: {fileID: 1403461033924870, guid: 03f4debef6f82ef43b174ff67987c532, type: 3}
+      propertyPath: m_TagString
+      value: DontDelete
       objectReference: {fileID: 0}
     - target: {fileID: 4473089879916392, guid: 03f4debef6f82ef43b174ff67987c532, type: 3}
       propertyPath: m_RootOrder
@@ -9022,6 +9640,10 @@ PrefabInstance:
     - target: {fileID: 1590873232276242, guid: f24cfa7ea7c5c764dad9dddadf04cde2, type: 3}
       propertyPath: m_Name
       value: Sideway 4 prefab (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1590873232276242, guid: f24cfa7ea7c5c764dad9dddadf04cde2, type: 3}
+      propertyPath: m_TagString
+      value: DontDelete
       objectReference: {fileID: 0}
     - target: {fileID: 4135480120554540, guid: f24cfa7ea7c5c764dad9dddadf04cde2, type: 3}
       propertyPath: m_RootOrder
@@ -9139,6 +9761,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Street_Plain
       objectReference: {fileID: 0}
+    - target: {fileID: 6753112034338873663, guid: 7ee91ef82f11d3247975b53c3e60dbb1, type: 3}
+      propertyPath: m_TagString
+      value: DontDelete
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7ee91ef82f11d3247975b53c3e60dbb1, type: 3}
 --- !u!4 &600374354319108883 stripped
@@ -9208,6 +9834,10 @@ PrefabInstance:
     - target: {fileID: 8461416361685434347, guid: d5c59e500d35f7d4986227be692621ef, type: 3}
       propertyPath: m_Name
       value: BankAlarm
+      objectReference: {fileID: 0}
+    - target: {fileID: 8461416361685434347, guid: d5c59e500d35f7d4986227be692621ef, type: 3}
+      propertyPath: m_TagString
+      value: DontDelete
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d5c59e500d35f7d4986227be692621ef, type: 3}
