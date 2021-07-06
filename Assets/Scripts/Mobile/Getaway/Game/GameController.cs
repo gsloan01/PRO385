@@ -27,10 +27,11 @@ public class GameController : MonoBehaviour
     public Transform rightSpawn;
     public GameObject Player;
 
+    public int numToSpawn = 10;
 
     float pointMultiplier = 1;
     float currentRunTime = 0;
-
+    bool paused = false;
     float timer = 0;
 
 
@@ -55,33 +56,12 @@ public class GameController : MonoBehaviour
     private void Start()
     {
         if (instance == null) instance = this;
-        CreateBlock();
-        CreateBlock();
-        CreateBlock();
-        CreateBlock();
-        CreateBlock();
-        CreateBlock();
-        CreateBlock();
-        CreateBlock();
-        CreateBlock();
-        CreateBlock();
-        CreateBlock();
-        //CreateBuildings();
-        //CreateBuildings();
-        //CreateBuildings();
-        //CreateBuildings();
-        //CreateBuildings();
-        //CreateBuildings();
-        //CreateBuildings();
-        //CreateBuildings();
-        //CreateBuildings();
-        //CreateBuildings();
-        //CreateBuildings();
-        //CreateBuildings();
-        //CreateBuildings();
-        //CreateBuildings();
-        //CreateBuildings();
-        //CreateBuildings();
+        for (int i = 0; i < numToSpawn; i++)
+        {
+            CreateBlock();
+            //CreateBuildings();
+        }
+        
     }
 
 
@@ -146,25 +126,37 @@ public class GameController : MonoBehaviour
     {
         GetComponent<AudioSource>().clip = music[0];
         state = gameState.Menu;
+        Player.SetActive(false);
         Time.timeScale = 1;
+        GetComponent<MenuController>().cam.SetActive(true);
+        
     }
     public void OnGame()
     {
         GetComponent<AudioSource>().clip = music[1];
         state = gameState.Game;
+        Player.SetActive(true);
         Time.timeScale = 1;
     }
     public void OnLoss()
     {
-        GetComponent<AudioSource>().clip = music[3];
+        //GetComponent<AudioSource>().clip = music[3];
         state = gameState.Loss;
         Time.timeScale = 1;
     }
     public void OnPause()
     {
-        GetComponent<AudioSource>().clip = music[2];
-        state = gameState.Pause;
-        Time.timeScale = 0;
+        if(paused)
+        {
+            GetComponent<AudioSource>().clip = music[2];
+            state = gameState.Pause;
+            Time.timeScale = 0;
+        }
+        else
+        {
+            OnGame();
+        }
+
     }
 
     
