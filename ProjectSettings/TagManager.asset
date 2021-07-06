@@ -5,6 +5,9 @@ TagManager:
   serializedVersion: 2
   tags:
   - RoadDeletion
+  - SlideHitbox
+  - JumpHitbox
+  - NormalHitbox
   layers:
   - Default
   - TransparentFX

@@ -7,6 +7,7 @@ public class GameController : MonoBehaviour
     public static GameController Instance { get { return instance; } }
     static GameController instance;
 
+    public MenuController menuController;
     //how fast the roads move
     public float gameSpeed = 5;
     //how long between spawns
@@ -49,6 +50,7 @@ public class GameController : MonoBehaviour
     private void Awake()
     {
         instance = this;
+        menuController = GetComponent<MenuController>();
     }
     private void Start()
     {
@@ -143,17 +145,33 @@ public class GameController : MonoBehaviour
     public void OnMenu()
     {
         GetComponent<AudioSource>().clip = music[0];
+        state = gameState.Menu;
+        Time.timeScale = 1;
     }
     public void OnGame()
     {
         GetComponent<AudioSource>().clip = music[1];
+        state = gameState.Game;
+        Time.timeScale = 1;
     }
     public void OnLoss()
     {
         GetComponent<AudioSource>().clip = music[3];
+        state = gameState.Loss;
+        Time.timeScale = 1;
     }
     public void OnPause()
     {
         GetComponent<AudioSource>().clip = music[2];
+        state = gameState.Pause;
+        Time.timeScale = 0;
+    }
+
+    
+
+    public void StartGame_OnClick()
+    {
+        Camera.main.GetComponent<Animator>().SetTrigger("GameStart");
+        
     }
 }
