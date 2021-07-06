@@ -7,6 +7,7 @@ public class Player : MonoBehaviour
     //LeftRightSpeed
     public Transform leftBound;
     public Transform RightBound;
+    Rigidbody rb;
     
     //Set animation triggers
 
@@ -15,12 +16,12 @@ public class Player : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        rb = GetComponent<Rigidbody>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        //Mathf.Clamp(rb.position.x, leftBound.position.x, RightBound.position.x);
     }
 }

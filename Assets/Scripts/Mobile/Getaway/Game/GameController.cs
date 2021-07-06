@@ -22,6 +22,8 @@ public class GameController : MonoBehaviour
     /// </summary>
     public List<AudioClip> music = new List<AudioClip>();
     public Transform nextBlockSpawn;
+    public Transform leftSpawn;
+    public Transform rightSpawn;
     public GameObject Player;
 
 
@@ -40,6 +42,9 @@ public class GameController : MonoBehaviour
     
 
     public List<GameObject> roadSections = new List<GameObject>();
+    public List<GameObject> leftBuildings = new List<GameObject>();
+    public List<GameObject> rightBuildings = new List<GameObject>();
+
 
     private void Awake()
     {
@@ -59,6 +64,22 @@ public class GameController : MonoBehaviour
         CreateBlock();
         CreateBlock();
         CreateBlock();
+        //CreateBuildings();
+        //CreateBuildings();
+        //CreateBuildings();
+        //CreateBuildings();
+        //CreateBuildings();
+        //CreateBuildings();
+        //CreateBuildings();
+        //CreateBuildings();
+        //CreateBuildings();
+        //CreateBuildings();
+        //CreateBuildings();
+        //CreateBuildings();
+        //CreateBuildings();
+        //CreateBuildings();
+        //CreateBuildings();
+        //CreateBuildings();
     }
 
 
@@ -79,6 +100,7 @@ public class GameController : MonoBehaviour
                 if (timer >= timeBetweenSpawn)
                 {
                     CreateBlock();
+                    //CreateBuildings();
                     timer = 0;
                 }
                 //If the game is out of the beginning
@@ -107,9 +129,15 @@ public class GameController : MonoBehaviour
         //Debug.Log("Created " +temp.name);
         nextBlockSpawn = temp.transform.GetChild(0).transform;
         //Debug.Log("Next spawn " + nextBlockSpawn.ToString());
-
-
-        
+    }
+    public void CreateBuildings()
+    {
+        GameObject left = Instantiate(leftBuildings[Random.Range(0, leftBuildings.Count)], leftSpawn.position, Quaternion.identity);
+        GameObject right = Instantiate(rightBuildings[Random.Range(0, rightBuildings.Count)], rightSpawn.position, Quaternion.identity);
+        //Debug.Log("Created " +temp.name);
+        leftSpawn = left.transform.GetChild(0).transform;
+        //Debug.Log("Created " +temp.name);
+        rightSpawn = right.transform.GetChild(0).transform;
     }
 
     public void OnMenu()
