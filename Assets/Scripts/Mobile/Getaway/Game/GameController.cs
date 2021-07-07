@@ -131,6 +131,7 @@ public class GameController : MonoBehaviour
     public void OnMenu()
     {
         GetComponent<AudioSource>().clip = music[0];
+        GetComponent<AudioSource>().Play();
         state = gameState.Menu;
         Player.SetActive(false);
         Time.timeScale = 1;
@@ -150,6 +151,8 @@ public class GameController : MonoBehaviour
     public void OnGame()
     {
         GetComponent<AudioSource>().clip = music[1];
+        GetComponent<AudioSource>().Play();
+
         state = gameState.Game;
         Player.SetActive(true);
         Time.timeScale = 1;
@@ -167,12 +170,15 @@ public class GameController : MonoBehaviour
         if(!paused)
         {
             paused = true;
-            GetComponent<AudioSource>().clip = music[2];
+            GetComponent<AudioSource>().clip = music[3];
+            GetComponent<AudioSource>().Play();
+
             state = gameState.Pause;
             Time.timeScale = 0;
         }
         else
         {
+            GetComponent<AudioSource>().clip = music[3];
             OnGame();
         }
 
