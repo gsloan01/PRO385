@@ -13,6 +13,8 @@ public class Player : MonoBehaviour
     public float slideTime = 0.65f;
     public bool sliding = false;
     float slideTimer = 0;
+    bool movingLeft;
+    bool movingRight;
 
     private void OnTriggerEnter(Collider other)
     {
@@ -58,35 +60,56 @@ public class Player : MonoBehaviour
             {
                 sliding = false;
                 slideTimer = 0;
+                transform.position = new Vector3(transform.position.x, 0, transform.position.z);
             }
         }
 
-        if (Input.GetKey(KeyCode.LeftArrow))
+        if (rb.position.x >= -6.5f && movingLeft)
         {
-            if(rb.position.x >= -6.5f)
-            {
-                transform.Translate(Vector3.left * Time.deltaTime * 5);
+            transform.Translate(Vector3.left * Time.deltaTime * 5);
 
-            }
-            
         }
-        else if(Input.GetKey(KeyCode.RightArrow))
+        if (rb.position.x <= 1f && movingRight)
         {
-            if (rb.position.x <= 1f)
-            {
-                transform.Translate(Vector3.right * Time.deltaTime * 5);
-            }
+            transform.Translate(Vector3.right * Time.deltaTime * 5);
         }
-        if(Input.GetKeyDown(KeyCode.UpArrow) && !sliding)
+    }
+
+    public void OnSlide()
+    {
+        if(!jumping && !sliding)
+        {
+            GetComponent<Animator>().SetTrigger("Slide");
+            transform.position = new Vector3(transform.position.x, -0.5f, transform.position.z);
+            sliding = true;
+        }
+    }
+
+    public void OnJump()
+    {
+        if (!jumping && !sliding)
         {
             GetComponent<Animator>().SetTrigger("Jump");
             jumping = true;
             transform.position = new Vector3(transform.position.x, 1.5f, transform.position.z);
         }
-        if (Input.GetKeyDown(KeyCode.DownArrow) && !jumping)
-        {
-            GetComponent<Animator>().SetTrigger("Slide");
-            sliding = true;
-        }
+    }
+    public void OnLeft()
+    {
+        movingLeft = true;
+        movingRight = false;
+    }
+    public void OnRight()
+    {
+        movingRight = true;
+        movingLeft = false;
+    }
+    public void OnStopLeft()
+    {
+        movingLeft = false;
+    }
+    public void OnStopRight()
+    {
+        movingRight = false;
     }
 }

@@ -20,6 +20,7 @@ public class MenuController : MonoBehaviour
         menuPanel.SetActive(true);
         gameUI.SetActive(false);
         pauseMenu.SetActive(false);
+        lossScreen.SetActive(false);
         cam.transform.position = camOriginal.position;
         cam.transform.forward = camOriginal.forward;
         GameController.Instance.OnMenu();
@@ -27,7 +28,7 @@ public class MenuController : MonoBehaviour
     public void OnLeaveMenu()
     {
         menuPanel.SetActive(false);
-        gameUI.SetActive(true);
+
         pauseMenu.SetActive(false);
         cam.GetComponent<Animator>().SetTrigger("GameStart");
         startingGame = true;
@@ -73,6 +74,7 @@ public class MenuController : MonoBehaviour
             {
                 cam.SetActive(false);
                 GameController.Instance.OnGame();
+                gameUI.SetActive(true);
                 timer = 0;
                 startingGame = false;
             }

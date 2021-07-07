@@ -7,6 +7,9 @@ public class BankAlarm : MonoBehaviour
     public float rate = 100.0f;
     void Update()
     {
-        transform.Rotate(Vector3.up, Time.deltaTime * rate);
+        if(GameController.Instance.state == GameController.gameState.Menu)
+        {
+            transform.Rotate(Vector3.up, Time.deltaTime * rate);
+        }
     }
 }

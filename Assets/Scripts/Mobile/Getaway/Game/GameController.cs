@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameController : MonoBehaviour
 {
@@ -93,16 +94,16 @@ public class GameController : MonoBehaviour
                 }
                 break;
             case gameState.Pause:
-                //set timescale to 0
+                
                 break;
             case gameState.Loss:
                 //if current run time is the longest, set it as new record
-                if(currentRunTime > PlayerPrefs.GetFloat("HighScore", 0))
+                if(points > PlayerPrefs.GetFloat("HighScore", 0))
                 {
-                    PlayerPrefs.SetFloat("HighScore", currentRunTime);
+                    PlayerPrefs.SetFloat("HighScore", points);
                 }
                 //show loss menu and offer retry
-                menuController.OnLose();
+                //menuController.OnLose();
                 break;
             default:
                 break;
@@ -134,7 +135,17 @@ public class GameController : MonoBehaviour
         Player.SetActive(false);
         Time.timeScale = 1;
         GetComponent<MenuController>().cam.SetActive(true);
-        
+        Obstacle[] objects = GameObject.FindObjectsOfType<Obstacle>();
+        if(objects.Length != 0)
+        {
+            foreach (Obstacle ob in objects)
+            {
+                Destroy(ob.gameObject);
+
+            }
+        }
+
+
     }
     public void OnGame()
     {
@@ -148,6 +159,7 @@ public class GameController : MonoBehaviour
         //GetComponent<AudioSource>().clip = music[3];
         state = gameState.Loss;
         Time.timeScale = 1;
+
     }
     public void OnPause()
     {

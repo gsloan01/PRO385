@@ -6,17 +6,12 @@ public class DestructZone : MonoBehaviour
 {
     private void OnTriggerEnter(Collider other)
     {
-        if(other.tag != "DontDelete" && other.tag != "Player")
+        if (other.tag != "DontDelete" && other.tag != "Player")
         {
             Destroy(other.gameObject);
+            //GameController.Instance.CreateBlock();
 
         }
     }
-    private void OnCollisionEnter(Collision collision)
-    {
-        if (collision.gameObject.tag != "DontDelete" && collision.gameObject.tag != "Player")
-        {
-            Destroy(collision.gameObject);
-        }
-    }
+
 }
